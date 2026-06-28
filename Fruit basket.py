@@ -3,7 +3,7 @@ fruits = ['Banana']
 while True:
     add = input('Enter a fruit (or press Quit): ').strip().title()
     if add == 'Quit':
-        print('Your final list is', fruits)
+        print('Your final list is this one: ', fruits)
         print('Goodbye!!')
         break
     elif add == '':
